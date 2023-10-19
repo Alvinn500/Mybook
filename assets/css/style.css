@@ -50,7 +50,7 @@ nav .logo a span {
     font-size: 1rem;
     padding: 5px;
     width: 13rem;
-    background-image: url(/assets/img/search_FILL0_wght400_GRAD0_opsz24.svg);
+    background-image: url("../img/search_FILL0_wght400_GRAD0_opsz24.svg");
     background-repeat: no-repeat;
     padding-left: 2rem;
     background-size: 1.2rem;
