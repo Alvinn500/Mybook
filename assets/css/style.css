@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,800&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    width: 1250px;
+    margin: 0 auto;
+    /* background-color: aqua; */
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #001524;
+    padding: 1rem 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo a{
+    color: whitesmoke;
+    font-size: 2rem;
+}
+
+nav .logo a span {
+    color: #445D48;
+}
+
+.search-bar input[type="search"]{
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 5px;
+    width: 13rem;
+    background-image: url(/assets/img/search_FILL0_wght400_GRAD0_opsz24.svg);
+    background-repeat: no-repeat;
+    padding-left: 2rem;
+    background-size: 1.2rem;
+    background-position-y: center;
+    background-position-x: .3rem;
+}
+
+
+main {
+    padding-top: 6rem !important; 
+    width: 100%;
+    background-color: #445D48;
+    padding: 1.5rem;
+}
+
+.masukan-buku-baru {
+    padding: 2rem;
+    background-color: #D6CC99;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-bottom: .5rem;
+}
+
+.masukan-buku-baru h1 {
+    text-align: center;
+    margin-bottom: .5rem;
+}
+
+.masukan-buku-baru .wrap-judul,
+.masukan-buku-baru .wrap-penulis,
+.masukan-buku-baru .wrap-tahun {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: .5rem;
+}
+
+.masukan-buku-baru .wrap-judul label,
+.masukan-buku-baru .wrap-penulis label,
+.masukan-buku-baru .wrap-tahun label,
+.masukan-buku-baru .selesai-dibaca {
+    font-size: 1.3rem;
+    margin-bottom: .5rem;
+}
+
+.masukan-buku-baru .wrap-judul input,
+.masukan-buku-baru .wrap-penulis input,
+.masukan-buku-baru .wrap-tahun input {
+    padding: 7px;
+}
+
+.masukan-buku-baru button {
+    padding: .7rem;
+    font-size: 1rem;
+    font-weight: 500;
+    width: 100%;
+    background-color: #001524;
+    color: whitesmoke;
+    border: none;
+}
+
+.wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.wrap .belum-selesai-dibaca,
+.wrap .selesai-dibaca {
+    margin: 1rem;
+    background-color: #D6CC99;
+    padding: 1rem;
+    width: 40%;
+    border-radius: 10px;
+    height: 25rem;
+}
+
+.wrap .belum-selesai-dibaca .title,
+.wrap .selesai-dibaca .title {
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.material-symbols-outlined {
+    font-size: 1.3rem;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.material-symbols-outlined:hover {
+    background-color: #001524;
+    border-radius: 100px;
+    color: whitesmoke;
+    padding: 4px;
+}
+
+.d-none{
+    display: none !important;
+}
